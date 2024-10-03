@@ -1,0 +1,10 @@
+{
+      "reportImplicitOverride": "information",
+      "reportUnknownParameterType": "information",
+      "reportMissingParameterType": "information",
+      "reportMissingTypeStubs": "information",
+      "reportUnknownMemberType": false,
+      "reportUnknownArgumentType": false,
+      "reportArgumentType": "warning",
+      "typeCheckingMode": "basic",
+ }
