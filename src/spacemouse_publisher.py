@@ -9,7 +9,7 @@ class SpaceMousePublisher(Node):
     def __init__(self):
         super().__init__('spacemouse_publisher')
         self.publisher_ = self.create_publisher(Twist, "spacemouse_cmd", 10)
-        self.timer = self.create_timer(0.1, self.timer_callback)
+        self.timer = self.create_timer(0.05, self.timer_callback)
         self.device = pyspacemouse.open()
         if not self.device:
             self.get_logger().error("Failed to open SpaceMouse device.")
